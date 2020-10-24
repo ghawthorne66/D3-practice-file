@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/barcharts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/barcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/d3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcharts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barcharts.html" beforeDir="false" afterPath="$PROJECT_DIR$/bcharts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lcharts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/barcharts.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,18 +51,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.lcharts.html">
+    <configuration name="bcharts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/bcharts.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="lcharts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/lcharts.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="charts.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/charts.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.lcharts.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.bcharts.html" />
+        <item itemvalue="Node.js.charts.js" />
       </list>
     </recent_temporary>
   </component>
@@ -72,7 +88,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603539473663</updated>
-      <workItem from="1603539477571" duration="9729000" />
+      <workItem from="1603539477571" duration="12855000" />
+      <workItem from="1603555275529" duration="2152000" />
+      <workItem from="1603557706559" duration="5392000" />
     </task>
     <servers />
   </component>
@@ -89,5 +107,60 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="594" y="285" key="#Inspections" timestamp="1603554062568">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="594" y="285" key="#Inspections/0.0.1920.1200@0.0.1920.1200" timestamp="1603554062568" />
+    <state width="939" height="414" key="GridCell.Tab.0.bottom" timestamp="1603555212009">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212009" />
+    <state width="939" height="414" key="GridCell.Tab.0.center" timestamp="1603555212008">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212008" />
+    <state width="939" height="414" key="GridCell.Tab.0.left" timestamp="1603555212008">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212008" />
+    <state width="939" height="414" key="GridCell.Tab.0.right" timestamp="1603555212009">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212009" />
+    <state width="939" height="414" key="GridCell.Tab.1.bottom" timestamp="1603555212011">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212011" />
+    <state width="939" height="414" key="GridCell.Tab.1.center" timestamp="1603555212010">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212010" />
+    <state width="939" height="414" key="GridCell.Tab.1.left" timestamp="1603555212010">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212010" />
+    <state width="939" height="414" key="GridCell.Tab.1.right" timestamp="1603555212011">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212011" />
+    <state width="939" height="414" key="GridCell.Tab.2.bottom" timestamp="1603555212012">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.2.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212012" />
+    <state width="939" height="414" key="GridCell.Tab.2.center" timestamp="1603555212012">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.2.center/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212012" />
+    <state width="939" height="414" key="GridCell.Tab.2.left" timestamp="1603555212011">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.2.left/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212011" />
+    <state width="939" height="414" key="GridCell.Tab.2.right" timestamp="1603555212012">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="939" height="414" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212012" />
   </component>
 </project>
