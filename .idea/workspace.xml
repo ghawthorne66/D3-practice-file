@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-d3js/filter-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/6-d3js/filter-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-d3js/filter-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/6-d3js/filter-2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.filter-1.html">
+  <component name="RunManager" selected="JavaScript Debug.filter-2.html">
     <configuration name="axis-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/axis-1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -78,7 +78,7 @@
     <configuration name="filter-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/filter-1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/index.html" useBuiltInWebServerPort="true">
+    <configuration name="filter-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/filter-2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="scaling-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/scaling-2.html" useBuiltInWebServerPort="true">
@@ -86,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.filter-2.html" />
         <item itemvalue="JavaScript Debug.filter-1.html" />
         <item itemvalue="JavaScript Debug.axis-2.html" />
         <item itemvalue="JavaScript Debug.axis-1.html" />
         <item itemvalue="JavaScript Debug.scaling-2.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +105,7 @@
       <workItem from="1603539477571" duration="12855000" />
       <workItem from="1603555275529" duration="2152000" />
       <workItem from="1603557706559" duration="9814000" />
-      <workItem from="1603577138961" duration="12009000" />
+      <workItem from="1603577138961" duration="13476000" />
     </task>
     <servers />
   </component>

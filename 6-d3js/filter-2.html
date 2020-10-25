@@ -78,7 +78,6 @@
                 .x(function (d) {return xScale(getDate(d.month)); } )
                 .y(function (d) {return yScale(d.sales); })
                 .interpolate("linear");
-             
 
             var svg = d3.select("body").append("svg").attr({ width:w, height:h, "id":"svg-"+ds.category});
             
@@ -138,7 +137,6 @@
                     .attr({
                         d: lineFun(ds.monthlySales)                        
                     });
-
             
         }
           
@@ -186,6 +184,7 @@
 
                  decodedData.contents.forEach(function(ds){
 
+                     //filter array based on selection
                     ds.monthlySales.splice(0,ds.monthlySales.length-sel);
 
                     // console.log(ds.monthlySales.length);
