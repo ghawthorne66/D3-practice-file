@@ -7,9 +7,15 @@
         var h = 100;
         var w = 400;
         var ds; //empty var for dataset (ds)
+        var salesTotal= 0.0;
 
 
         function buildLine() {
+
+            //enter D3 code here
+            d3.select("body")
+                .append("h1")
+                .text("CSV One Chart");
 
             var lineFun = d3.svg.line()
                 .x(function (d) { return ((d.month-20130001)/3.25); })
@@ -28,6 +34,24 @@
 
         }
 
+        function showTotals() {
+            var t = d3.select("body").append("table");
+
+            //get totals
+            for(var i = 0; i < ds.length; i++) {
+                salesTotal += ds[i]['sales']*1;
+            }
+            //add totals to table
+            var tr = t.selectAll("tr")
+                .data([1])
+                .enter()
+                .append("tr")
+                .append("td")
+                .text("Sales Total: " + salesTotal)
+        }
+
+
+
         //call to load data and then build our viz
         d3.csv("MonthlySales.csv", function(error, data) {
 
@@ -40,11 +64,15 @@
             }
 
             buildLine();
+            showTotals();
+
 
         });
 
+
+
     </script>
+
+
 </head>
 <body>
-</body>
-</html>
