@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4-d3js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MonthlySales.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MonthlySalesbyCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MonthlySalesbyCategoryMultiple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsondata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-d3js/working-with-api.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,10 +64,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jsondata.html">
-    <configuration name="bcharts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/bcharts.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.working-with-api.html">
     <configuration name="csvdata.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/csvdata.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -84,13 +77,16 @@
     <configuration name="lcharts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/lcharts.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="working-with-api.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/4-d3js/working-with-api.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.working-with-api.html" />
         <item itemvalue="JavaScript Debug.jsondata.html" />
         <item itemvalue="JavaScript Debug.csvdata.html" />
         <item itemvalue="JavaScript Debug.lcharts.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.bcharts.html" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +101,7 @@
       <workItem from="1603539477571" duration="12855000" />
       <workItem from="1603555275529" duration="2152000" />
       <workItem from="1603557706559" duration="9814000" />
-      <workItem from="1603577138961" duration="4223000" />
+      <workItem from="1603577138961" duration="6310000" />
     </task>
     <servers />
   </component>
