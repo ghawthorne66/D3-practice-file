@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5-d3js/axis-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-d3js/axis-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-d3js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-d3js/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-d3js/scaling-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-d3js/scaling-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +100,7 @@
       <workItem from="1603539477571" duration="12855000" />
       <workItem from="1603555275529" duration="2152000" />
       <workItem from="1603557706559" duration="9814000" />
-      <workItem from="1603577138961" duration="10004000" />
+      <workItem from="1603577138961" duration="10337000" />
     </task>
     <servers />
   </component>
@@ -192,5 +184,9 @@
     </state>
     <state width="939" height="414" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1603555212012" />
     <state width="978" height="374" key="GridCell.Tab.2.right/0.23.1920.1123@0.23.1920.1123" timestamp="1603623298920" />
+    <state x="175" y="274" width="670" height="676" key="search.everywhere.popup" timestamp="1603648027509">
+      <screen x="0" y="23" width="1920" height="1123" />
+    </state>
+    <state x="175" y="274" width="670" height="676" key="search.everywhere.popup/0.23.1920.1123@0.23.1920.1123" timestamp="1603648027509" />
   </component>
 </project>
