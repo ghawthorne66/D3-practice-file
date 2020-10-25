@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="" />
+    <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-d3js/filter-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/6-d3js/filter-1.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,26 +51,31 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/5-d3js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/8-d3js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/8-d3js" />
+      <recent name="$PROJECT_DIR$/7-d3js" />
+      <recent name="$PROJECT_DIR$/6-d3js" />
       <recent name="$PROJECT_DIR$/5-d3js" />
       <recent name="$PROJECT_DIR$/4-d3js" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/5-d3js" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.axis-2.html">
+  <component name="RunManager" selected="JavaScript Debug.filter-1.html">
     <configuration name="axis-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/axis-1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="axis-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/axis-2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="filter-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/filter-1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/index.html" useBuiltInWebServerPort="true">
@@ -76,16 +84,13 @@
     <configuration name="scaling-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/scaling-2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="working-with-api.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/4-d3js/working-with-api.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.filter-1.html" />
         <item itemvalue="JavaScript Debug.axis-2.html" />
         <item itemvalue="JavaScript Debug.axis-1.html" />
         <item itemvalue="JavaScript Debug.scaling-2.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.working-with-api.html" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +105,7 @@
       <workItem from="1603539477571" duration="12855000" />
       <workItem from="1603555275529" duration="2152000" />
       <workItem from="1603557706559" duration="9814000" />
-      <workItem from="1603577138961" duration="10337000" />
+      <workItem from="1603577138961" duration="12009000" />
     </task>
     <servers />
   </component>
