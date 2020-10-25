@@ -8,6 +8,8 @@
         var w = 400;
         var ds; //empty var for dataset (ds)
         var salesTotal= 0.0;
+        var salesAvg=0.0;
+        var metrics=[];
 
 
         function buildLine() {
@@ -35,22 +37,30 @@
         }
 
         function showTotals() {
-            var t = d3.select("body").append("table");
+            // var t = d3.select("body").append("table");
 
-            //get totals
+            //sales totals
             for(var i = 0; i < ds.length; i++) {
                 salesTotal += ds[i]['sales']*1;
-            }
+            };
+            //sales average
+            salesAvg = salesTotal / ds.length;
+
+            //add metrics to array
+            metrics.push("Sales Total: " + salesTotal);
+            metrics.push("Sales Avg: " + salesAvg.toFixed(2));
+
+            // alert(metrics);
+            var t = d3.select("body").append("table");
+
             //add totals to table
             var tr = t.selectAll("tr")
-                .data([1])
+                .data(metrics)
                 .enter()
                 .append("tr")
                 .append("td")
-                .text("Sales Total: " + salesTotal)
+                .text(function(d){ return d; });
         }
-
-
 
         //call to load data and then build our viz
         d3.csv("MonthlySales.csv", function(error, data) {
