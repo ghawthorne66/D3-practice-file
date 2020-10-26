@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dashboard1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-d3js/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/8-d3js/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-d3js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/8-d3js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-d3js/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/8-d3js/template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,29 +52,29 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/7-d3js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/7-d3js" />
-      <recent name="$PROJECT_DIR$/6-d3js" />
-      <recent name="$PROJECT_DIR$/8-d3js" />
-      <recent name="$PROJECT_DIR$/5-d3js" />
-      <recent name="$PROJECT_DIR$/4-d3js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/5-d3js" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/7-d3js" />
+      <recent name="$PROJECT_DIR$/6-d3js" />
+      <recent name="$PROJECT_DIR$/8-d3js" />
+      <recent name="$PROJECT_DIR$/5-d3js" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.dashboard.html">
-    <configuration name="choropleth.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/choropleth.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.bars.html">
+    <configuration name="bars.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/bars.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="d3-text.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/d3-text.html" useBuiltInWebServerPort="true">
+    <configuration name="dashboard1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/dashboard1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/8-d3js/dashboard.html" useBuiltInWebServerPort="true">
@@ -90,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.bars.html" />
+        <item itemvalue="JavaScript Debug.dashboard1.html" />
         <item itemvalue="JavaScript Debug.dashboard.html" />
         <item itemvalue="JavaScript Debug.template.html" />
         <item itemvalue="JavaScript Debug.map-with-cities.html" />
-        <item itemvalue="JavaScript Debug.choropleth.html" />
-        <item itemvalue="JavaScript Debug.d3-text.html" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +110,8 @@
       <workItem from="1603577138961" duration="27420000" />
       <workItem from="1603720405612" duration="596000" />
       <workItem from="1603724660362" duration="431000" />
-      <workItem from="1603725106280" duration="5344000" />
+      <workItem from="1603725106280" duration="5621000" />
+      <workItem from="1603741327263" duration="1158000" />
     </task>
     <servers />
   </component>
@@ -210,5 +209,17 @@
     </state>
     <state x="175" y="268" width="670" height="723" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1603719941544" />
     <state x="175" y="274" width="670" height="676" key="search.everywhere.popup/0.23.1920.1123@0.23.1920.1123" timestamp="1603648027509" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/8-d3js/dashboard.html</url>
+          <line>328</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
