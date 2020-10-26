@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/6-d3js/d3-bar2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-d3js/svg-bar1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-d3js/filter-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/6-d3js/filter-2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +52,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/8-d3js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/6-d3js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/6-d3js" />
       <recent name="$PROJECT_DIR$/8-d3js" />
       <recent name="$PROJECT_DIR$/7-d3js" />
-      <recent name="$PROJECT_DIR$/6-d3js" />
       <recent name="$PROJECT_DIR$/5-d3js" />
       <recent name="$PROJECT_DIR$/4-d3js" />
     </key>
@@ -68,11 +69,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.filter-2.html">
-    <configuration name="axis-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/axis-1.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.d3-bar2.html">
+    <configuration name="bcharts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/bcharts.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="axis-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/axis-2.html" useBuiltInWebServerPort="true">
+    <configuration name="d3-bar2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/d3-bar2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="filter-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/filter-1.html" useBuiltInWebServerPort="true">
@@ -81,16 +82,16 @@
     <configuration name="filter-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/filter-2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="scaling-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/scaling-2.html" useBuiltInWebServerPort="true">
+    <configuration name="svg-bar1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/svg-bar1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.d3-bar2.html" />
+        <item itemvalue="JavaScript Debug.svg-bar1.html" />
+        <item itemvalue="JavaScript Debug.bcharts.html" />
         <item itemvalue="JavaScript Debug.filter-2.html" />
         <item itemvalue="JavaScript Debug.filter-1.html" />
-        <item itemvalue="JavaScript Debug.axis-2.html" />
-        <item itemvalue="JavaScript Debug.axis-1.html" />
-        <item itemvalue="JavaScript Debug.scaling-2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +106,7 @@
       <workItem from="1603539477571" duration="12855000" />
       <workItem from="1603555275529" duration="2152000" />
       <workItem from="1603557706559" duration="9814000" />
-      <workItem from="1603577138961" duration="14106000" />
+      <workItem from="1603577138961" duration="16682000" />
     </task>
     <servers />
   </component>
