@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6-d3js/d3-bar2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-d3js/svg-bar1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-d3js/transition-practice.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,29 +68,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.d3-bar2.html">
-    <configuration name="bcharts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/bcharts.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.transition-practice.html">
+    <configuration name="scaling-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/scaling-2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="d3-bar2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/d3-bar2.html" useBuiltInWebServerPort="true">
+    <configuration name="tooltip-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/tooltip-1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="filter-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/filter-1.html" useBuiltInWebServerPort="true">
+    <configuration name="tooltip-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/tooltip-2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="filter-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/filter-2.html" useBuiltInWebServerPort="true">
+    <configuration name="tooltip-3-working.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/tooltip-3-working.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="svg-bar1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/svg-bar1.html" useBuiltInWebServerPort="true">
+    <configuration name="transition-practice.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/transition-practice.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.d3-bar2.html" />
-        <item itemvalue="JavaScript Debug.svg-bar1.html" />
-        <item itemvalue="JavaScript Debug.bcharts.html" />
-        <item itemvalue="JavaScript Debug.filter-2.html" />
-        <item itemvalue="JavaScript Debug.filter-1.html" />
+        <item itemvalue="JavaScript Debug.transition-practice.html" />
+        <item itemvalue="JavaScript Debug.scaling-2.html" />
+        <item itemvalue="JavaScript Debug.tooltip-2.html" />
+        <item itemvalue="JavaScript Debug.tooltip-1.html" />
+        <item itemvalue="JavaScript Debug.tooltip-3-working.html" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +105,7 @@
       <workItem from="1603539477571" duration="12855000" />
       <workItem from="1603555275529" duration="2152000" />
       <workItem from="1603557706559" duration="9814000" />
-      <workItem from="1603577138961" duration="16682000" />
+      <workItem from="1603577138961" duration="18716000" />
     </task>
     <servers />
   </component>
