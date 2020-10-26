@@ -2,9 +2,13 @@
     <head>
         <script src="d3.v3.js" charset="utf-8"></script>
         <style>
+            h2 {
+                font-family: sans-serif;
+            }
         </style>
     </head>
     <body>
+    <h2>Sales by City</h2>
         <script>
 
             //Width and height
@@ -25,7 +29,7 @@
 
             //Load in GeoJSON data
             d3.json("us.json", function(json) {
-                
+
                 //Bind data and create one path per GeoJSON feature
                 svg.selectAll("path")
                    .data(json.features)
@@ -33,10 +37,10 @@
                    .append("path")
                    .attr("d", path)
                    .attr("fill","#666666");
-        
+
               //Load in cities data
               d3.csv("sales-by-city.csv", function(data) {
-                
+
                 svg.selectAll("circle")
                    .data(data)
                    .enter()
@@ -50,8 +54,9 @@
                    .attr("r", function(d) {
                     return Math.sqrt(parseInt(d.sales)* 0.00005);
                    })
+
                    .style("fill", "red");
-                
+
               });
 
 

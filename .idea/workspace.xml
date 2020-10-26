@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7-d3js/choropleth.html" beforeDir="false" afterPath="$PROJECT_DIR$/7-d3js/choropleth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-d3js/map-with-cities.html" beforeDir="false" afterPath="$PROJECT_DIR$/7-d3js/map-with-cities.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.choropleth.html">
+  <component name="RunManager" selected="JavaScript Debug.map-with-cities.html">
     <configuration name="choropleth.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/choropleth.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -83,16 +83,16 @@
     <configuration name="map-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/map-2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="transition-practice.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/transition-practice.html" useBuiltInWebServerPort="true">
+    <configuration name="map-with-cities.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/map-with-cities.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.map-with-cities.html" />
         <item itemvalue="JavaScript Debug.choropleth.html" />
         <item itemvalue="JavaScript Debug.d3-text.html" />
         <item itemvalue="JavaScript Debug.map-2.html" />
         <item itemvalue="JavaScript Debug.map-1.html" />
-        <item itemvalue="JavaScript Debug.transition-practice.html" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +110,7 @@
       <workItem from="1603577138961" duration="27420000" />
       <workItem from="1603720405612" duration="596000" />
       <workItem from="1603724660362" duration="431000" />
-      <workItem from="1603725106280" duration="690000" />
+      <workItem from="1603725106280" duration="1668000" />
     </task>
     <servers />
   </component>
@@ -199,6 +199,10 @@
     </state>
     <state x="241" y="184" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1603724802356" />
     <state x="241" y="195" key="SettingsEditor/0.23.1920.1123@0.23.1920.1123" timestamp="1603725089409" />
+    <state x="327" y="272" key="run.anything.popup" timestamp="1603725981849">
+      <screen x="0" y="23" width="1920" height="1123" />
+    </state>
+    <state x="327" y="272" key="run.anything.popup/0.23.1920.1123@0.23.1920.1123" timestamp="1603725981849" />
     <state x="175" y="268" width="670" height="723" key="search.everywhere.popup" timestamp="1603719941544">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
