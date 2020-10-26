@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7-d3js/map-with-cities.html" beforeDir="false" afterPath="$PROJECT_DIR$/7-d3js/map-with-cities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-d3js/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/8-d3js/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-d3js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/8-d3js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-d3js/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/8-d3js/template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,29 +72,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.map-with-cities.html">
+  <component name="RunManager" selected="JavaScript Debug.dashboard.html">
     <configuration name="choropleth.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/choropleth.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="d3-text.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/d3-text.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="map-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/map-1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="map-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/map-2.html" useBuiltInWebServerPort="true">
+    <configuration name="dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/8-d3js/dashboard.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="map-with-cities.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/map-with-cities.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="template.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/8-d3js/template.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.dashboard.html" />
+        <item itemvalue="JavaScript Debug.template.html" />
         <item itemvalue="JavaScript Debug.map-with-cities.html" />
         <item itemvalue="JavaScript Debug.choropleth.html" />
         <item itemvalue="JavaScript Debug.d3-text.html" />
-        <item itemvalue="JavaScript Debug.map-2.html" />
-        <item itemvalue="JavaScript Debug.map-1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +112,7 @@
       <workItem from="1603577138961" duration="27420000" />
       <workItem from="1603720405612" duration="596000" />
       <workItem from="1603724660362" duration="431000" />
-      <workItem from="1603725106280" duration="1668000" />
+      <workItem from="1603725106280" duration="5344000" />
     </task>
     <servers />
   </component>
