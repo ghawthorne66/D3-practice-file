@@ -1,3 +1,5 @@
+
+
 d3 = function() {
   var π = Math.PI, ε = 1e-6, d3 = {
     version: "3.0.8"

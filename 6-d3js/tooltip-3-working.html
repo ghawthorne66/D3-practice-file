@@ -48,8 +48,6 @@
           <option value="3">Last Quarter</option>
         </select>
       </p>
-
-
     <script>
         var h=100;
         var w=350;
@@ -95,9 +93,6 @@
                         .style("opacity", 0);
 
 
-
-            
-
             //scales
             var xScale = d3.time.scale()
                         .domain([minDate, maxDate])                
@@ -128,7 +123,6 @@
             var xAxis = svg.append("g").call(xAxisGen)                        
                         .attr("class","x-axis")
                         .attr("transform", "translate(0," + (h-padding) + ")");
-                       
 
             var viz = svg.append("path")
                     .attr({
@@ -163,8 +157,6 @@
                                     .duration(500)      
                                     .style("opacity", 0);   
                             });
-            
-
             }
 
         function updateLine(ds) {
@@ -210,8 +202,8 @@
                     });
 
             //fix for moving dots on update
-            var dots = svg.selectAll(".circle-"+ds.category)                                                   
-                    .transition() 
+            var dots = svg.selectAll(".circle-"+ds.category)
+                    .transition()
                     .duration(500)
                     .ease("linear")
                     .attr({
@@ -268,17 +260,12 @@
                     ds.monthlySales.splice(0,ds.monthlySales.length-sel);
 
                     updateLine(ds);
-                   
+
+
                 });
 
-
             })
-
-
-
-
-        });  
-
+        })
                
     </script>
     </body>

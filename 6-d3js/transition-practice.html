@@ -20,19 +20,24 @@
             font-weight: 300;
             font-size: 16px;
         }
+
         div.tooltip {
             position: absolute;
-            max-width: 200%;
+            max-width: 200px;
             height: auto;
             padding: 5px;
             background-color: white;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
             border-radius: 5px;
-            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-            pointer-events: none; /*Very Important*/
+            -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            pointer-events: none; /* MUI IMPORTANTE! */
             font-family: sans-serif;
-            font-size: 12px;
-
+            font-size:12px;
         }
+
     </style>
 </head>
 <body>
@@ -91,12 +96,14 @@
         //scales
         var xScale = d3.time.scale()
             .domain([minDate, maxDate])
-            .range([padding+5, w-padding]);
+            .range([padding+5, w-padding])
+            .nice();
 
 
         var yScale = d3.scale.linear()
             .domain([0, d3.max(ds.monthlySales, function(d){ return d.sales;})])
-            .range([h-padding,10]);
+            .range([h-padding,10])
+            .nice();
 
         var xAxisGen = d3.svg.axis().scale(xScale).orient("bottom").tickFormat(d3.time.format("%b"));
         var yAxisGen = d3.svg.axis().scale(yScale).orient("left").ticks(4);
@@ -107,7 +114,8 @@
             .interpolate("linear");
 
 
-        var svg = d3.select("body").append("svg").attr({ width:w, height:h, "id":"svg-"+ds.category});
+        var svg = d3.select("body").append("svg").attr({ width:w, height:h,
+            "id":"svg-"+ds.category});
 
         var yAxis = svg.append("g").call(yAxisGen)
             .attr("class", "y-axis")
@@ -131,19 +139,24 @@
         .enter()
         .append("circle")
         .attr({
-            cx: function(d) {return xScale(getDate(d.month));},
-            cy: function(d) {return yScale(d.sales);},
-            r: 3,
-            "fill": "circle-" + ds.category
+            cx: function(d) {return xScale(getDate(d.month)); },
+            cy: function(d) {return yScale(d.sales); },
+            r: 4,
+            "fill": "#666666",
+            class: "circle-" +ds.category
         })
         .on("mouseover", function(d) {
             tooltip.transition()
             .duration(500)
-            .style("opacity",.85)
-
+            .style("opacity",.9);
             tooltip.html("<strong>Sales $" + d.sales + "K</strong>")
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+           tooltip.transition()
+           .duration(500)
+           .style("opacity", 0);
         })
     }
 
@@ -188,14 +201,23 @@
             .attr({
                 d: lineFun(ds.monthlySales)
             });
+        //fix for moving dots on update
+        var dots = svg.selectAll(".circle-"+ds.category)
+            .transition()
+            .duration(500)
+            .ease("linear")
+            .attr({
+                cx: function(d) {return xScale(getDate(d.month)); },
+                cy: function (d) {return yScale(d.sales); },
 
+            })
 
     }
 
     //show header
     function showHeader(ds) {
         d3.select("body").append("h1")
-            .text(ds.category + " Sales (2013)");
+            .text(ds.category + " Sales (2020)");
     }
 
 
@@ -237,8 +259,6 @@
                 decodedData.contents.forEach(function(ds){
 
                     ds.monthlySales.splice(0,ds.monthlySales.length-sel);
-
-                    // console.log(ds.monthlySales.length);
 
                     updateLine(ds);
 

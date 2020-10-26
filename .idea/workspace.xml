@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6-d3js/transition-practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-d3js/d3-text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-d3js/tooltip-3-working.html" beforeDir="false" afterPath="$PROJECT_DIR$/6-d3js/tooltip-3-working.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-d3js/transition-practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/6-d3js/transition-practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-d3js/d3.v3.js" beforeDir="false" afterPath="$PROJECT_DIR$/7-d3js/d3.v3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-d3js/us.json" beforeDir="false" afterPath="$PROJECT_DIR$/7-d3js/us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -51,15 +56,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/6-d3js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/7-d3js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7-d3js" />
       <recent name="$PROJECT_DIR$/6-d3js" />
       <recent name="$PROJECT_DIR$/8-d3js" />
-      <recent name="$PROJECT_DIR$/7-d3js" />
       <recent name="$PROJECT_DIR$/5-d3js" />
       <recent name="$PROJECT_DIR$/4-d3js" />
     </key>
@@ -68,14 +73,14 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.transition-practice.html">
-    <configuration name="scaling-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/5-d3js/scaling-2.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.d3-text.html">
+    <configuration name="d3-text.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/d3-text.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tooltip-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/tooltip-1.html" useBuiltInWebServerPort="true">
+    <configuration name="map-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/map-1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tooltip-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/tooltip-2.html" useBuiltInWebServerPort="true">
+    <configuration name="map-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/map-2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="tooltip-3-working.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/6-d3js/tooltip-3-working.html" useBuiltInWebServerPort="true">
@@ -86,10 +91,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.d3-text.html" />
+        <item itemvalue="JavaScript Debug.map-2.html" />
+        <item itemvalue="JavaScript Debug.map-1.html" />
         <item itemvalue="JavaScript Debug.transition-practice.html" />
-        <item itemvalue="JavaScript Debug.scaling-2.html" />
-        <item itemvalue="JavaScript Debug.tooltip-2.html" />
-        <item itemvalue="JavaScript Debug.tooltip-1.html" />
         <item itemvalue="JavaScript Debug.tooltip-3-working.html" />
       </list>
     </recent_temporary>
@@ -105,7 +110,7 @@
       <workItem from="1603539477571" duration="12855000" />
       <workItem from="1603555275529" duration="2152000" />
       <workItem from="1603557706559" duration="9814000" />
-      <workItem from="1603577138961" duration="18716000" />
+      <workItem from="1603577138961" duration="26055000" />
     </task>
     <servers />
   </component>
