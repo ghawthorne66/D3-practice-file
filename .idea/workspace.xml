@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b1d37e-31e2-43ff-b48e-6a7da84a6774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-d3js/2013-category-sales.json" beforeDir="false" afterPath="$PROJECT_DIR$/8-d3js/2013-category-sales.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +70,14 @@
       <recent name="$PROJECT_DIR$/5-d3js" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bars.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="bars.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/bars.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="dashboard1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/dashboard1.html" useBuiltInWebServerPort="true">
+    <configuration name="dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/8-d3js/dashboard.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/8-d3js/dashboard.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="map-with-cities.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3-practice-file/7-d3js/map-with-cities.html" useBuiltInWebServerPort="true">
@@ -88,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.bars.html" />
-        <item itemvalue="JavaScript Debug.dashboard1.html" />
         <item itemvalue="JavaScript Debug.dashboard.html" />
         <item itemvalue="JavaScript Debug.template.html" />
         <item itemvalue="JavaScript Debug.map-with-cities.html" />
@@ -111,7 +111,7 @@
       <workItem from="1603720405612" duration="596000" />
       <workItem from="1603724660362" duration="431000" />
       <workItem from="1603725106280" duration="5621000" />
-      <workItem from="1603741327263" duration="1158000" />
+      <workItem from="1603741327263" duration="1520000" />
     </task>
     <servers />
   </component>
